@@ -1,3 +1,6 @@
+.. image:: https://travis-ci.org/getpelican/pelican-plugins.svg?branch=master
+    :target: https://travis-ci.org/getpelican/pelican-plugins
+
 Pelican Plugins
 ###############
 
@@ -69,6 +72,8 @@ Code include              Includes Pygments highlighted code in reStructuredText
 Collate content           Makes categories of content available to the template as lists through a ``collations`` attribute
 
 Creole reader             Allows you to write your posts using the wikicreole syntax
+
+CSS HTML JS Minify        Minifies all CSS, HTML and JavaScript files in the output path after site generation.
 
 Custom article URLs       Adds support for defining different default URLs for different categories
 
@@ -246,7 +251,11 @@ Section number            Adds section numbers for article headers, in the form 
 
 Series                    Groups related articles into a series
 
+Shaarli poster            Upload newly redacted articles onto a specified `Shaarli <https://github.com/shaarli/Shaarli>`__ instance.
+
 Share post                Creates share URLs of article
+
+Shortcodes                Easy and explicit inline jinja2 macros
 
 Show Source               Place a link to the source text of your posts.
 
@@ -283,6 +292,8 @@ txt2tags_reader           Reader that renders txt2tags markup in content
 Unity WebGL               Easily embed Unity3d games into posts and pages
 
 Video Privacy Enhancer    Increases user privacy by stopping YouTube, Google, et al from placing cookies via embedded video
+
+Webring                   Add a webring to your site from a list of web feeds (e.g. RSS/Atom)
 
 W3C validate              Submits generated HTML content to the W3C Markup Validation Service
 
