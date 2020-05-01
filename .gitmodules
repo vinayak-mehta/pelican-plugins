@@ -142,3 +142,6 @@
 [submodule "similar_posts"]
 	path = similar_posts
 	url = https://github.com/davidlesieur/similar_posts.git
+[submodule "embed_tweet"]
+        path = embed_tweet
+        url = https://github.com/vinayak-mehta/pelican-embed-tweet
